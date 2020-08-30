@@ -1,0 +1,78 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/sanjit/bin:/home/sanjit/.local/bin:/home/sanjit/.rvm/gems/ruby-2.3.8/bin:/home/sanjit/.rvm/gems/ruby-2.3.8@global/bin:/home/sanjit/.rvm/rubies/ruby-2.3.8/bin:/home/sanjit/bin:/home/sanjit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sanjit/.rvm/bin:/home/sanjit/.rvm/bin:/home/sanjit/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.17.35:443 - Local (0.0.0.0:0)
+      at internalConnect (net.js:919:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:378:12)
+      at emitLookup (net.js:1059:9)
+      at /usr/share/yarn/lib/cli.js:107542:29
+      at /usr/share/yarn/lib/cli.js:107388:25
+      at RawTask.module.exports.RawTask.call (/usr/share/yarn/lib/cli.js:83613:19)
+      at flush (/usr/share/yarn/lib/cli.js:83695:29)
+      at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+npm manifest: 
+  {
+    "name": "facelogin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.19.2",
+      "base64-to-image": "^1.0.2",
+      "fs": "0.0.1-security",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-p5": "^1.3.2",
+      "react-router": "^6.0.0-alpha.2",
+      "react-router-dom": "^6.0.0-alpha.2",
+      "react-scripts": "3.4.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "main": "index.js",
+    "devDependencies": {},
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
