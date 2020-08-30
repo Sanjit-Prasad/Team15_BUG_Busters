@@ -76,10 +76,21 @@ export class Verify extends Component {
 										Sign In With
 									</span>
 
-									<input/>
-									<br/><br/>
-									<br/><br/>
-
+									<span className="txt1">
+										Email Id
+									</span>
+									<div className="wrap-input100 validate-input" data-validate = "Username is required">
+										<input id="mood2" className="input100" type="email" name="email" />
+										<span className="focus-input100"></span>
+									</div>
+									<span className="txt1">
+										Password
+									</span>
+									<div className="wrap-input100 validate-input" data-validate = "Username is required">
+										<input id="mood3" className="input100" type="password" name="password" />
+										<span className="focus-input100"></span>
+									</div>
+									
 									<Sketch setup={this.setup} draw={this.draw}/>
 									
 									 
